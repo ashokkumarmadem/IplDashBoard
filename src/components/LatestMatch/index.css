@@ -1,0 +1,80 @@
+/* Write your CSS here */
+.latest-match-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+  width: 90%;
+}
+.team {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+}
+.date {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 10px;
+}
+.venue {
+  font-family: Bree Seiif;
+  color: white;
+  font-size: 8px;
+}
+.competing-team-logo {
+  height: 100px;
+  width: 100px;
+}
+.first-innings {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 10px;
+  font-weight: normal;
+}
+.first-innings-result {
+  font-family: Bree Serif;
+  color: white;
+  font-size: 8px;
+}
+.man-of-the-match {
+  font-family: Bree Serif;
+  color: white;
+  font-weight: normal;
+  font-size: 10px;
+}
+.latest-match-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.latest-match-text {
+  font-family: Bree Serif;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  align-self: flex-start;
+  margin-left: 5%;
+}
+@media screen and (min-width: 768px) {
+  .competing-team-logo {
+    height: 300px;
+    width: 300px;
+  }
+  .first-innings {
+    font-size: 15px;
+  }
+  .first-innings-result {
+    font-size: 12px;
+  }
+  .man-of-the-match {
+    font-size: 12px;
+  }
+  .venue {
+    font-size: 15px;
+  }
+  .date {
+    font-size: 16px;
+  }
+  .team {
+    font-size: 18px;
+  }
+}
